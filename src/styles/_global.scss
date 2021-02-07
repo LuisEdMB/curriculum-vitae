@@ -1,0 +1,28 @@
+@import '~sass-mq';
+
+$main-color: #272839 !important;
+$second-color: white !important;
+
+$first-font-color: #272839 !important;
+$second-font-color: white !important;
+
+$font-size-one: 8rem !important;
+$font-size-two: 7rem !important;
+$font-size-three: 6rem !important;
+$font-size-four: 5rem !important;
+$font-size-five: 4rem !important;
+$font-size-six: 3rem !important;
+$font-size-seven: 2rem !important;
+$font-size-eight: 1.2rem !important;
+
+$mq-responsive: true;
+$mq-static-breakpoint: desktop;
+$mq-breakpoints: (
+  navbar-min-width:  1080px,
+  xs: 480px,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1600px
+);

@@ -1,0 +1,25 @@
+@import "global";
+
+.contentBanner {
+    background-image: url("../assets/images/banner.png");
+    background-size: cover;
+    height: 980px;
+    color: $second-font-color
+}
+
+.contentInfoBanner {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.contentInformation {
+    background-size: cover;
+    height: 980px;
+    color: $first-font-color;
+}
+
+.contentInfoInformation {
+    margin: 0px 64px 0px 64px;
+    height: inherit;
+    display: inline-flex;
+}

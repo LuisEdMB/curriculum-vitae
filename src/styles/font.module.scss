@@ -1,0 +1,87 @@
+@import "global";
+
+%fontTitleGeneral {
+    transition: 0.5s linear;
+    font-size: $font-size-six;
+    @include mq($from: xs) {
+        font-size: $font-size-five;
+    }
+    @include mq($from: sm) {
+        font-size: $font-size-five;
+    }
+    @include mq($from: md) {
+        font-size: $font-size-four;
+    }
+    @include mq($from: lg) {
+        font-size: $font-size-three;
+    }
+    @include mq($from: xl) {
+        font-size: $font-size-two;
+    }
+    @include mq($from: xxl) {
+        font-size: $font-size-one;
+    }
+}
+
+
+%fontSubTitleGeneral {
+    transition: 0.5s linear;
+    font-size: $font-size-eight;
+    @include mq($from: xs) {
+        font-size: $font-size-seven;
+    }
+    @include mq($from: sm) {
+        font-size: $font-size-seven;
+    }
+    @include mq($from: md) {
+        font-size: $font-size-seven;
+    }
+    @include mq($from: lg) {
+        font-size: $font-size-six;
+    }
+    @include mq($from: xl) {
+        font-size: $font-size-five;
+    }
+    @include mq($from: xxl) {
+        font-size: $font-size-four;
+    }
+}
+
+%fontInfoGeneral {
+    transition: 0.5s linear;
+    font-size: $font-size-eight;
+    @include mq($from: xs) {
+        font-size: $font-size-eight;
+    }
+    @include mq($from: sm) {
+        font-size: $font-size-eight;
+    }
+    @include mq($from: md) {
+        font-size: $font-size-eight;
+    }
+    @include mq($from: lg) {
+        font-size: $font-size-eight;
+    }
+    @include mq($from: xl) {
+        font-size: $font-size-seven;
+    }
+    @include mq($from: xxl) {
+        font-size: $font-size-six;
+    }
+}
+
+.fontTitleBanner {
+    color: $second-font-color;
+    @extend %fontTitleGeneral;
+}
+
+.fontSubTitleBanner {
+    color: $second-font-color;
+    @extend %fontSubTitleGeneral;
+}
+
+.fontInfoInformation {
+    color: $first-font-color;
+    text-align: justify;
+    @extend %fontInfoGeneral;
+}
