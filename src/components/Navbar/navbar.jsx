@@ -46,7 +46,8 @@ export default function Navbar() {
                             span={ 1 }>
                             <MenuOutlined 
                                 onClick={ _ => handleNavbarOpen(!navbarOpen) }
-                                className={ styles.menuButtonNavbarLateral } />
+                                className={ styles.menuButtonNavbarLateral }
+                                style={{ marginTop: "12px" }} />
                         </Col>
                     </Row>
             </Header>
