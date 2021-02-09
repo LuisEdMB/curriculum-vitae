@@ -1,7 +1,7 @@
 import Particles from "react-particles-js";
 import styles from '../../styles/particle.module.scss'
 
-export default function Particle({ type, color, height }) {
+export default function Particle({ type, color }) {
     const types = {
         particles: "particles"
     }
@@ -10,14 +10,13 @@ export default function Particle({ type, color, height }) {
         return (
             <Particles
                 className={ styles.particle }
-                height={ height }
                 params={{
                     "particles": {
                         "number": {
-                            "value": 100
+                            "value": 30
                         },
                         "size": {
-                            "value": 3
+                            "value": 6
                         },
                         "color": {
                             "value": `${ color }`
@@ -29,7 +28,7 @@ export default function Particle({ type, color, height }) {
                     "interactivity": {
                         "events": {
                             "onhover": {
-                                "enable": true,
+                                "enable": false,
                                 "mode": "repulse"
                             }
                         }

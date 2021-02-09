@@ -1,0 +1,35 @@
+{
+    "studies": {
+        "academics": [
+            {
+                "id": 1,
+                "title": "Ingeniería de Sistemas",
+                "university": "Universidad Privada de Tacna",
+                "fromYear": 2014,
+                "toYear": 2018,
+                "details": "Egresado dentro del tercio superior.",
+                "url": ""
+            }
+        ],
+        "courses": [
+            {
+                "id": 1,
+                "title": "Scrum Foundation Professional Certificate (SFPC)",
+                "university": "CertiProf",
+                "fromYear": 2020,
+                "toYear": 2020,
+                "details": "Credencial: ",
+                "url": "TLSVGKHDHZ-MMPXSXSX-RPFHRSRFPF"
+            },
+            {
+                "id": 2,
+                "title": "Deep Learning Fundamentals",
+                "university": "Cognitive Class",
+                "fromYear": 2020,
+                "toYear": 2020,
+                "details": "Ver certificado",
+                "url": "https://courses.cognitiveclass.ai/certificates/d2d699d1ecee491780979113dadca615"
+            }
+        ]
+    }
+}

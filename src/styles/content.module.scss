@@ -1,25 +1,61 @@
 @import "global";
 
+%mqContent {
+    margin: 200px 32px 200px 32px;
+    transition: 0.5s linear;
+    @include mq($from: xs) {
+        margin: 200px 32px 200px 32px;
+    }
+    @include mq($from: sm) {
+        margin: 200px 32px 200px 32px;
+    }
+    @include mq($from: md) {
+        margin: 200px 32px 200px 32px;
+    }
+    @include mq($from: lg) {
+        margin: 200px 32px 200px 32px;
+    }
+    @include mq($from: xl) {
+        margin: 200px 130px 200px 130px;
+    }
+    @include mq($from: xxl) {
+        margin: 200px 250px 200px 250px;
+    }
+}
+
 .contentBanner {
     background-image: url("../assets/images/banner.png");
     background-size: cover;
-    height: 980px;
+    height: auto;
     color: $second-font-color
 }
 
 .contentInfoBanner {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    height: auto;
+    @extend %mqContent;
 }
 
 .contentInformation {
+    background-color: $second-color;
     background-size: cover;
-    height: 980px;
+    height: auto;
     color: $first-font-color;
 }
 
 .contentInfoInformation {
-    margin: 0px 64px 0px 64px;
     height: inherit;
     display: inline-flex;
+    @extend %mqContent;
+}
+
+.contentStudies {
+    background-color: $third-color;
+    background-size: cover;
+    height: auto;
+    color: $first-font-color;
+}
+
+.contentInfoStudies {
+    height: auto;
+    @extend %mqContent;
 }

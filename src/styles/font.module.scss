@@ -57,16 +57,108 @@
         font-size: $font-size-eight;
     }
     @include mq($from: md) {
-        font-size: $font-size-eight;
+        font-size: $font-size-nine;
     }
     @include mq($from: lg) {
-        font-size: $font-size-eight;
+        font-size: $font-size-nine;
     }
     @include mq($from: xl) {
         font-size: $font-size-seven;
     }
     @include mq($from: xxl) {
-        font-size: $font-size-six;
+        font-size: $font-size-seven;
+    }
+}
+
+%fontH2 {
+    transition: 0.5s linear;
+    font-size: $font-size-eleven;
+    @include mq($from: xs) {
+        font-size: $font-size-eleven;
+    }
+    @include mq($from: sm) {
+        font-size: $font-size-ten;
+    }
+    @include mq($from: md) {
+        font-size: $font-size-ten;
+    }
+    @include mq($from: lg) {
+        font-size: $font-size-nine;
+    }
+    @include mq($from: xl) {
+        font-size: $font-size-nine;
+    }
+    @include mq($from: xxl) {
+        font-size: $font-size-seven;
+    }
+}
+
+%fontH3 {
+    transition: 0.5s linear;
+    font-size: $font-size-eight;
+    @include mq($from: xs) {
+        font-size: $font-size-eight;
+    }
+    @include mq($from: sm) {
+        font-size: $font-size-eleven;
+    }
+    @include mq($from: md) {
+        font-size: $font-size-ten;
+    }
+    @include mq($from: lg) {
+        font-size: $font-size-ten;
+    }
+    @include mq($from: xl) {
+        font-size: $font-size-ten;
+    }
+    @include mq($from: xxl) {
+        font-size: $font-size-nine;
+    }
+}
+
+%fontH4 {
+    transition: 0.5s linear;
+    font-size: $font-size-fourteen;
+    @include mq($from: xs) {
+        font-size: $font-size-fourteen;
+    }
+    @include mq($from: sm) {
+        font-size: $font-size-thirteen;
+    }
+    @include mq($from: md) {
+        font-size: $font-size-twelve;
+    }
+    @include mq($from: lg) {
+        font-size: $font-size-twelve;
+    }
+    @include mq($from: xl) {
+        font-size: $font-size-twelve;
+    }
+    @include mq($from: xxl) {
+        font-size: $font-size-ten;
+    }
+}
+
+%fontH5 {
+    transition: 0.5s linear;
+    font-size: $font-size-fifteen;
+    @include mq($from: xs) {
+        font-size: $font-size-fifteen;
+    }
+    @include mq($from: sm) {
+        font-size: $font-size-fifteen;
+    }
+    @include mq($from: md) {
+        font-size: $font-size-fourteen;
+    }
+    @include mq($from: lg) {
+        font-size: $font-size-fourteen;
+    }
+    @include mq($from: xl) {
+        font-size: $font-size-fourteen;
+    }
+    @include mq($from: xxl) {
+        font-size: $font-size-fourteen;
     }
 }
 
@@ -83,4 +175,24 @@
 .fontInfoInformation {
     color: $first-font-color;
     @extend %fontInfoGeneral;
+}
+
+.fontCardH2 {
+    color: $first-font-color;
+    @extend %fontH2;
+}
+
+.fontCardH3 {
+    color: $first-font-color;
+    @extend %fontH3;
+}
+
+.fontCardH4 {
+    color: $first-font-color;
+    @extend %fontH4;
+}
+
+.fontCardH5 {
+    color: $third-font-color;
+    @extend %fontH5;
 }
