@@ -59,3 +59,15 @@
     height: auto;
     @extend %mqContent;
 }
+
+.contentJobs {
+    background-color: $second-color;
+    background-size: cover;
+    height: auto;
+    color: $first-font-color;
+}
+
+.contentInfoJobs {
+    height: auto;
+    @extend %mqContent;
+}

@@ -31,5 +31,509 @@
                 "url": "https://courses.cognitiveclass.ai/certificates/d2d699d1ecee491780979113dadca615"
             }
         ]
-    }
+    },
+    "jobs": [
+        {
+            "id": 1,
+            "position": "Practicante Pre-Profesional",
+            "enterprise": "Caja Municipal de Ahorro y Crédito de Tacna",
+            "location": "Tacna - Perú",
+            "from": "07/2018",
+            "to": "12/2018",
+            "activities": [
+                {
+                    "id": 1,
+                    "description": "Encargado de la elaboración y desarrollo del Sistema Web 'Balanced Scorecard'."
+                },
+                {
+                    "id": 2,
+                    "description": "Apoyo de tareas dentro del Área de Planeamiento, Desarrollo y Presupuesto."
+                }
+            ],
+            "technologies": [
+                {
+                    "id": 1,
+                    "type": "Frontend",
+                    "technology": [
+                        {
+                            "id": 1,
+                            "text": "Javascript"
+                        },
+                        {
+                            "id": 2,
+                            "text": "HTML"
+                        },
+                        {
+                            "id": 3,
+                            "text": "CSS"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "type": "Backend",
+                    "technology": [
+                        {
+                            "id": 1,
+                            "text": "C#"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "type": "Base de Datos",
+                    "technology": [
+                        {
+                            "id": 1,
+                            "text": "SQL Server"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "type": "Librerías y/o Frameworks",
+                    "technology": [
+                        {
+                            "id": 1,
+                            "text": "Knockout JS"
+                        },
+                        {
+                            "id": 2,
+                            "text": ".NET Framework"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "type": "Herramientas",
+                    "technology": [
+                        {
+                            "id": 1,
+                            "text": "Visual Studio"
+                        },
+                        {
+                            "id": 2,
+                            "text": "Visual Code"
+                        },
+                        {
+                            "id": 3,
+                            "text": "SQL Server Management Studio"
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "type": "Control de Versiones",
+                    "technology": [
+                        {
+                            "id": 1,
+                            "text": "TFS"
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "type": "Sistema Operativo",
+                    "technology": [
+                        {
+                            "id": 1,
+                            "text": "Windows"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "position": "Desarrollador de Sistemas - FullStack",
+            "enterprise": "Caja Municipal de Ahorro y Crédito de Tacna",
+            "location": "Tacna - Perú",
+            "from": "03/2019",
+            "to": "03/2020",
+            "activities": [
+                {
+                    "id": 1,
+                    "description": "Encargado de la elaboración y desarrollo del Sistema Web 'Sistema Integral de Cobranza - SISCO'."
+                },
+                {
+                    "id": 2,
+                    "description": "Atención de incidencias y requerimientos de sistemas de las áreas de la empresa."
+                }
+            ],
+            "technologies": [
+                {
+                    "id": 1,
+                    "type": "Frontend",
+                    "technology": [
+                        {
+                            "id": 1,
+                            "text": "Javascript / Typescript"
+                        },
+                        {
+                            "id": 2,
+                            "text": "HTML"
+                        },
+                        {
+                            "id": 3,
+                            "text": "CSS (SASS)"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "type": "Backend",
+                    "technology": [
+                        {
+                            "id": 1,
+                            "text": "C#"
+                        },
+                        {
+                            "id": 2,
+                            "text": "Javascript / Typescript (Node.js)"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "type": "Base de Datos",
+                    "technology": [
+                        {
+                            "id": 1,
+                            "text": "SQL Server"
+                        },
+                        {
+                            "id": 2,
+                            "text": "MySQL"
+                        },
+                        {
+                            "id": 3,
+                            "text": "MongoDB"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "type": "Librerías y/o Frameworks",
+                    "technology": [
+                        {
+                            "id": 1,
+                            "text": "React"
+                        },
+                        {
+                            "id": 2,
+                            "text": "Angular"
+                        },
+                        {
+                            "id": 3,
+                            "text": "Redux"
+                        },
+                        {
+                            "id": 4,
+                            "text": ".NET Framework"
+                        },
+                        {
+                            "id": 5,
+                            "text": ".NET Core"
+                        },
+                        {
+                            "id": 6,
+                            "text": "Express JS"
+                        },
+                        {
+                            "id": 7,
+                            "text": "Bootstrap"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "type": "Herramientas",
+                    "technology": [
+                        {
+                            "id": 1,
+                            "text": "Visual Studio"
+                        },
+                        {
+                            "id": 2,
+                            "text": "Visual Code"
+                        },
+                        {
+                            "id": 3,
+                            "text": "JetBrains Rider"
+                        },
+                        {
+                            "id": 4,
+                            "text": "SQL Server Management Studio"
+                        },
+                        {
+                            "id": 5,
+                            "text": "MySQL Workbench"
+                        },
+                        {
+                            "id": 6,
+                            "text": "MongoDB Compass"
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "type": "Metodologías",
+                    "technology": [
+                        {
+                            "id": 1,
+                            "text": "SCRUM"
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "type": "Despliegues",
+                    "technology": [
+                        {
+                            "id": 1,
+                            "text": "Docker"
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "type": "Control de Versiones",
+                    "technology": [
+                        {
+                            "id": 1,
+                            "text": "TFS"
+                        },
+                        {
+                            "id": 2,
+                            "text": "GIT"
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "type": "Sistema Operativo",
+                    "technology": [
+                        {
+                            "id": 1,
+                            "text": "Windows"
+                        },
+                        {
+                            "id": 2,
+                            "text": "Linux"
+                        }
+                    ]
+                }
+            ]
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        {
+            "id": 3,
+            "position": "Desarrollador de Sistemas - FullStack",
+            "enterprise": "Caja Municipal de Ahorro y Crédito de Tacna",
+            "location": "Tacna - Perú",
+            "from": "07/2020",
+            "to": "01/2021",
+            "activities": [
+                {
+                    "id": 1,
+                    "description": "Encargado de la elaboración del aplicativo móvil 'SISCO Móvil'."
+                },
+                {
+                    "id": 2,
+                    "description": "Encargado de la integración del sistema de cobranza de Electrosur con los sistemas de la empresa."
+                },
+                {
+                    "id": 3,
+                    "description": "Atención de incidencias y requerimientos de sistemas de las áreas de la empresa."
+                }
+            ],
+            "technologies": [
+                {
+                    "id": 1,
+                    "type": "Frontend",
+                    "technology": [
+                        {
+                            "id": 1,
+                            "text": "Javascript / Typescript"
+                        },
+                        {
+                            "id": 2,
+                            "text": "HTML"
+                        },
+                        {
+                            "id": 3,
+                            "text": "CSS (SASS)"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "type": "Backend",
+                    "technology": [
+                        {
+                            "id": 1,
+                            "text": "C#"
+                        },
+                        {
+                            "id": 2,
+                            "text": "Javascript / Typescript (Node.js)"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "type": "Móvil",
+                    "technology": [
+                        {
+                            "id": 1,
+                            "text": "Xamarin (C#)"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "type": "Base de Datos",
+                    "technology": [
+                        {
+                            "id": 1,
+                            "text": "SQL Server"
+                        },
+                        {
+                            "id": 2,
+                            "text": "MySQL"
+                        },
+                        {
+                            "id": 3,
+                            "text": "MongoDB"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "type": "Librerías y/o Frameworks",
+                    "technology": [
+                        {
+                            "id": 1,
+                            "text": "React"
+                        },
+                        {
+                            "id": 2,
+                            "text": "Angular"
+                        },
+                        {
+                            "id": 3,
+                            "text": "Redux"
+                        },
+                        {
+                            "id": 4,
+                            "text": ".NET Framework"
+                        },
+                        {
+                            "id": 5,
+                            "text": ".NET Core"
+                        },
+                        {
+                            "id": 6,
+                            "text": "Express JS"
+                        },
+                        {
+                            "id": 7,
+                            "text": "Bootstrap"
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "type": "Herramientas",
+                    "technology": [
+                        {
+                            "id": 1,
+                            "text": "Visual Studio"
+                        },
+                        {
+                            "id": 2,
+                            "text": "Visual Code"
+                        },
+                        {
+                            "id": 3,
+                            "text": "JetBrains Rider"
+                        },
+                        {
+                            "id": 4,
+                            "text": "SQL Server Management Studio"
+                        },
+                        {
+                            "id": 5,
+                            "text": "MySQL Workbench"
+                        },
+                        {
+                            "id": 6,
+                            "text": "MongoDB Compass"
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "type": "Metodologías",
+                    "technology": [
+                        {
+                            "id": 1,
+                            "text": "SCRUM"
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "type": "Despliegues",
+                    "technology": [
+                        {
+                            "id": 1,
+                            "text": "Docker"
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "type": "Control de Versiones",
+                    "technology": [
+                        {
+                            "id": 1,
+                            "text": "TFS"
+                        },
+                        {
+                            "id": 2,
+                            "text": "GIT"
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "type": "Sistema Operativo",
+                    "technology": [
+                        {
+                            "id": 1,
+                            "text": "Windows"
+                        },
+                        {
+                            "id": 2,
+                            "text": "Linux"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

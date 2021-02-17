@@ -9,9 +9,11 @@ import stylesImage from '../styles/image.module.scss'
 import stylesCard from '../styles/card.module.scss'
 import data from '../data/data.json'
 import CardListSimple from "../components/Card/card-list-simple";
+import CardTableSimple from "../components/Card/card-table-simple";
 
 export default function Main() {
     let studies = data.studies
+    let jobs = data.jobs
 
     return (
         <Layout>
@@ -73,6 +75,13 @@ export default function Main() {
                                 list={ studies.courses }/>
                         </Col>
                     </Row>
+                </Section>
+            </Section>
+            <Section style={ "contentJobs" }>
+                <Section style={ "contentInfoJobs" }>
+                    <CardTableSimple 
+                        title={ "Experiencia Laboral" }
+                        data={ jobs }/>
                 </Section>
             </Section>
         </Layout>
