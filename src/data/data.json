@@ -695,7 +695,7 @@
             "title": "Curriculum Vitae Personal",
             "image": "curriculum_vitae",
             "description": "Landing Page que contiene mi Curriculum Vitae personal.",
-            "link": "",
+            "link": "https://luisedmb.github.io/curriculum-vitae",
             "link_github": "https://github.com/LuisEdMB/curriculum-vitae",
             "technologies": [
                 {
