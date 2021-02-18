@@ -18,3 +18,8 @@ module.exports = withPlugins([
     includePaths: [path.join(__dirname, "src/styles")]
   }
 })
+
+module.exports = {
+  basePath: '/curriculum-vitae',
+  assetPrefix: '/curriculum-vitae'
+}
