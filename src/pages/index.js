@@ -161,7 +161,7 @@ export default function Main() {
                                 className={ stylesCard.cardInfoContacts }>
                                     <Title 
                                         level={ 4 }
-                                        className={ stylesFont.fontCardH4Light }>N° Teléfono: 952020236</Title>
+                                        className={ stylesFont.fontCardH4Light }>N° Teléfono: +51 952020236</Title>
                                     <Title 
                                         level={ 4 }
                                         className={ stylesFont.fontCardH4Light }>E-mail: bedregale@gmail.com</Title>
@@ -194,7 +194,7 @@ export default function Main() {
                                             className={ stylesButton.buttonCircle }
                                             icon={ <WhatsAppOutlined /> } 
                                             shape="circle"
-                                            href="https://wa.me/952020236"
+                                            href="https://wa.me/51952020236"
                                             target="_blank"/>
                                     </Tooltip>
                             </Card>
