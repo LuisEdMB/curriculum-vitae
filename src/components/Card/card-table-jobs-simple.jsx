@@ -4,7 +4,7 @@ import stylesCard from '../../styles/card.module.scss'
 import Title from "antd/lib/typography/Title";
 import { AimOutlined } from "@ant-design/icons";
 
-export default function CardTableSimple({ title, data }){
+export default function CardTableJobsSimple({ title, data }){
     return (
         <Card
             className={ stylesCard.cardInfoInformation }
@@ -13,7 +13,8 @@ export default function CardTableSimple({ title, data }){
                 className={ stylesFont.fontCardH2 }>{ title }</Title> }>
                     {
                         data.map(item => 
-                            <>
+                            <div
+                                key={ item.id }>
                                 <Descriptions
                                     layout={ "vertical" }
                                     key={ item.id }
@@ -44,7 +45,7 @@ export default function CardTableSimple({ title, data }){
                                             span={ 4 }>
                                                 <Title 
                                                     level={ 4 }
-                                                    className={ stylesFont.fontCardH4 }>{ item.enterprise }</Title>
+                                                    className={ stylesFont.fontCardH4 }>{ item.enterprise } ({ item.location })</Title>
                                         </Descriptions.Item>
                                         <Descriptions.Item label={ 
                                             <Title 
@@ -77,8 +78,8 @@ export default function CardTableSimple({ title, data }){
                                             }
                                         </Descriptions.Item>
                                 </Descriptions>
-                                <br />
-                            </>)
+                                <br/>
+                            </div>)
                     }
         </Card>
     )

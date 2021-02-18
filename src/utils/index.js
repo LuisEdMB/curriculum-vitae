@@ -3,3 +3,20 @@ export function isUrl(url){
     let regex = new RegExp(expression)
     return url.match(regex)
 }
+
+export function assignValueToArrayWithLimit(array, key, limit){
+    let countLimit = Math.ceil(array.length / limit)
+    let count = 1
+    let position = 1
+    return array.map(item => {
+        if (count <= countLimit){
+            item[key] = position
+            count += 1
+        }
+        else{
+            count = 1
+            position += 1
+        }
+        return item
+    })
+}

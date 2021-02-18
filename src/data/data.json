@@ -325,20 +325,6 @@
                 }
             ]
         },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         {
             "id": 3,
             "position": "Desarrollador de Sistemas - FullStack",
@@ -532,6 +518,205 @@
                             "text": "Linux"
                         }
                     ]
+                }
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "id": 1,
+            "text": "C#",
+            "score": 4
+        },
+        {
+            "id": 2,
+            "text": "Java",
+            "score": 4
+        },
+        {
+            "id": 3,
+            "text": "ASP.NET",
+            "score": 4
+        },
+        {
+            "id": 4,
+            "text": ".NET Core",
+            "score": 4
+        },
+        {
+            "id": 5,
+            "text": "PHP",
+            "score": 4
+        },
+        {
+            "id": 6,
+            "text": "VB.NET",
+            "score": 4
+        },
+        {
+            "id": 7,
+            "text": "C++",
+            "score": 4
+        },
+        {
+            "id": 8,
+            "text": "Python",
+            "score": 3
+        },
+        {
+            "id": 9,
+            "text": "Javascript",
+            "score": 4
+        },
+        {
+            "id": 10,
+            "text": "Typescript",
+            "score": 4
+        },
+        {
+            "id": 11,
+            "text": "Angular",
+            "score": 4
+        },
+        {
+            "id": 12,
+            "text": "React",
+            "score": 4
+        },
+        {
+            "id": 13,
+            "text": "React Native",
+            "score": 4
+        },
+        {
+            "id": 14,
+            "text": "Xamarin",
+            "score": 4
+        },
+        {
+            "id": 15,
+            "text": "Redux",
+            "score": 4
+        },
+        {
+            "id": 16,
+            "text": "JQuery",
+            "score": 4
+        },
+        {
+            "id": 17,
+            "text": "Knockout JS",
+            "score": 4
+        },
+        {
+            "id": 18,
+            "text": "Node.js",
+            "score": 4
+        },
+        {
+            "id": 19,
+            "text": "Web Services",
+            "score": 4
+        },
+        {
+            "id": 20,
+            "text": "Web API",
+            "score": 4
+        },
+        {
+            "id": 21,
+            "text": "EntityFramework",
+            "score": 4
+        },
+        {
+            "id": 22,
+            "text": "EntityFramework Core",
+            "score": 4
+        },
+        {
+            "id": 23,
+            "text": "Web Sockets (SignalR, Socket IO)",
+            "score": 4
+        },
+        {
+            "id": 24,
+            "text": "Docker",
+            "score": 3
+        },
+        {
+            "id": 25,
+            "text": "GIT",
+            "score": 4
+        },
+        {
+            "id": 26,
+            "text": "TFS",
+            "score": 4
+        },
+        {
+            "id": 27,
+            "text": "Patrón de Diseño (DDD - TDD)",
+            "score": 4
+        },
+        {
+            "id": 28,
+            "text": "Microservicios",
+            "score": 4
+        },
+        {
+            "id": 29,
+            "text": "MS SQL Server",
+            "score": 4
+        },
+        {
+            "id": 30,
+            "text": "MySQL Server",
+            "score": 4
+        },
+        {
+            "id": 31,
+            "text": "MongoDB",
+            "score": 2
+        },
+        {
+            "id": 32,
+            "text": "SCRUM",
+            "score": 2
+        },
+        {
+            "id": 33,
+            "text": "RUP",
+            "score": 2
+        }
+    ],
+    "projects": [
+        {
+            "id": 1,
+            "title": "Curriculum Vitae Personal",
+            "image": "curriculum_vitae",
+            "description": "Landing Page que contiene mi Curriculum Vitae personal.",
+            "link": "",
+            "link_github": "https://github.com/LuisEdMB/curriculum-vitae",
+            "technologies": [
+                {
+                    "id": 1,
+                    "tooltip": "React",
+                    "logo": "react"
+                },
+                {
+                    "id": 2,
+                    "tooltip": "NextJS",
+                    "logo": "nextjs"
+                },
+                {
+                    "id": 3,
+                    "tooltip": "SASS",
+                    "logo": "sass"
+                },
+                {
+                    "id": 4,
+                    "tooltip": "Ant Design",
+                    "logo": "ant-design"
                 }
             ]
         }

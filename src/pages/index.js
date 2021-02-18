@@ -8,12 +8,17 @@ import stylesFont from '../styles/font.module.scss'
 import stylesImage from '../styles/image.module.scss'
 import stylesCard from '../styles/card.module.scss'
 import data from '../data/data.json'
-import CardListSimple from "../components/Card/card-list-simple";
-import CardTableSimple from "../components/Card/card-table-simple";
+import CardTableJobsSimple from "../components/Card/card-table-jobs-simple";
+import CardListStudiesSimple from "../components/Card/card-list-studies-simple";
+import * as utils from "../utils";
+import CardListRateSimple from "../components/Card/card-list-rate-simple";
+import CardProjectSimple from "../components/Card/card-project-simple";
 
 export default function Main() {
     let studies = data.studies
     let jobs = data.jobs
+    let skills = utils.assignValueToArrayWithLimit(data.skills, "position", 3)
+    let projects = utils.assignValueToArrayWithLimit(data.projects, "position", 3)
 
     return (
         <Layout>
@@ -65,12 +70,12 @@ export default function Main() {
                 <Section style={ "contentInfoStudies" }>
                     <Row type="flex" align="middle" gutter={[40, 40]}>
                         <Col xs={ 24 } lg={ 12 } md={ 24 } >
-                            <CardListSimple 
+                            <CardListStudiesSimple 
                                 title="Estudios"
                                 list={ studies.academics }/>
                         </Col>
                         <Col xs={ 24 } lg={ 12 } md={ 24 }>
-                            <CardListSimple 
+                            <CardListStudiesSimple 
                                 title="Cursos"
                                 list={ studies.courses }/>
                         </Col>
@@ -79,9 +84,57 @@ export default function Main() {
             </Section>
             <Section style={ "contentJobs" }>
                 <Section style={ "contentInfoJobs" }>
-                    <CardTableSimple 
+                    <CardTableJobsSimple 
                         title={ "Experiencia Laboral" }
                         data={ jobs }/>
+                </Section>
+            </Section>
+            <Section style={ "contentSkills" }>
+                <Section style={ "contentInfoSkills" }>
+                    <Row type="flex" align="middle" gutter={[40, 40]}>
+                        <Col xs={ 24 } lg={ 8 } md={ 24 } >
+                            <CardListRateSimple 
+                                data={ skills.filter(skill => skill.position === 1) }/>
+                        </Col>
+                        <Col xs={ 24 } lg={ 8 } md={ 24 } >
+                            <CardListRateSimple 
+                                data={ skills.filter(skill => skill.position === 2) }/>
+                        </Col>
+                        <Col xs={ 24 } lg={ 8 } md={ 24 } >
+                            <CardListRateSimple 
+                                data={ skills.filter(skill => skill.position === 3) }/>
+                        </Col>
+                    </Row>
+                </Section>
+            </Section>
+            <Section style={ "contentProjects" }>
+                <Section style={ "contentInfoProjects" }>
+                <Row type="flex" align="middle" gutter={[40, 40]}>
+                        <Col xs={ 24 } lg={ 8 } md={ 24 } >
+                            {
+                                projects.filter(project => project.position === 1).map(project => 
+                                    <CardProjectSimple 
+                                        key={ project.id }
+                                        { ...project } />)
+                            }
+                        </Col>
+                        <Col xs={ 24 } lg={ 8 } md={ 24 } >
+                            {
+                                projects.filter(project => project.position === 2).map(project => 
+                                    <CardProjectSimple 
+                                        key={ project.id }
+                                        { ...project } />)
+                            }
+                        </Col>
+                        <Col xs={ 24 } lg={ 8 } md={ 24 } >
+                            {
+                                projects.filter(project => project.position === 3).map(project => 
+                                    <CardProjectSimple 
+                                        key={ project.id }
+                                        { ...project } />)
+                            }
+                        </Col>
+                    </Row>
                 </Section>
             </Section>
         </Layout>

@@ -71,3 +71,27 @@
     height: auto;
     @extend %mqContent;
 }
+
+.contentSkills {
+    background-color: $third-color;
+    background-size: cover;
+    height: auto;
+    color: $first-font-color;
+}
+
+.contentInfoSkills {
+    height: auto;
+    @extend %mqContent;
+}
+
+.contentProjects {
+    background-color: $second-color;
+    background-size: cover;
+    height: auto;
+    color: $first-font-color;
+}
+
+.contentInfoProjects {
+    height: auto;
+    @extend %mqContent;
+}

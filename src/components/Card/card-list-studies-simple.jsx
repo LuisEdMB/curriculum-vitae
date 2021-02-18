@@ -6,7 +6,7 @@ import * as utils from '../../utils'
 import Title from "antd/lib/typography/Title";
 import Link from "antd/lib/typography/Link";
 
-export default function CardListSimple({ title, list }){
+export default function CardListStudiesSimple({ title, list }){
     return (
         <Card
             className={ stylesCard.cardInfoInformation }
