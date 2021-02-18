@@ -196,3 +196,23 @@
     color: $third-font-color;
     @extend %fontH5;
 }
+
+.fontCardH2Light {
+    color: $second-font-color;
+    @extend %fontH2;
+}
+
+.fontCardH3Light {
+    color: $second-font-color;
+    @extend %fontH3;
+}
+
+.fontCardH4Light {
+    color: $second-font-color;
+    @extend %fontH4;
+}
+
+.fontCardH5Light {
+    color: $second-font-color;
+    @extend %fontH5;
+}
