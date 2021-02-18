@@ -9,14 +9,12 @@ export function assignValueToArrayWithLimit(array, key, limit){
     let count = 1
     let position = 1
     return array.map(item => {
-        if (count <= countLimit){
-            item[key] = position
-            count += 1
-        }
-        else{
+        if (count > countLimit){
             count = 1
             position += 1
         }
+        item[key] = position
+        count += 1
         return item
     })
 }
