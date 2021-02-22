@@ -2,7 +2,6 @@
 
 %mqContent {
     margin: 200px 32px 200px 32px;
-    transition: 0.5s linear;
     @include mq($from: xs) {
         margin: 200px 32px 200px 32px;
     }
@@ -25,7 +24,6 @@
 
 %mqContentFooter {
     margin: 50px 32px 50px 50px;
-    transition: 0.5s linear;
     @include mq($from: xs) {
         margin: 50px 32px 50px 32px;
     }

@@ -1,7 +1,6 @@
 @import "global";
 
 %fontTitleGeneral {
-    transition: 0.5s linear;
     font-size: $font-size-six;
     @include mq($from: xs) {
         font-size: $font-size-five;
@@ -25,7 +24,6 @@
 
 
 %fontSubTitleGeneral {
-    transition: 0.5s linear;
     font-size: $font-size-eight;
     @include mq($from: xs) {
         font-size: $font-size-seven;
@@ -48,7 +46,6 @@
 }
 
 %fontInfoGeneral {
-    transition: 0.5s linear;
     font-size: $font-size-eight;
     @include mq($from: xs) {
         font-size: $font-size-eight;
@@ -71,7 +68,6 @@
 }
 
 %fontH2 {
-    transition: 0.5s linear;
     font-size: $font-size-eleven;
     @include mq($from: xs) {
         font-size: $font-size-eleven;
@@ -94,7 +90,6 @@
 }
 
 %fontH3 {
-    transition: 0.5s linear;
     font-size: $font-size-eight;
     @include mq($from: xs) {
         font-size: $font-size-eight;
@@ -117,7 +112,6 @@
 }
 
 %fontH4 {
-    transition: 0.5s linear;
     font-size: $font-size-fourteen;
     @include mq($from: xs) {
         font-size: $font-size-fourteen;
@@ -140,7 +134,6 @@
 }
 
 %fontH5 {
-    transition: 0.5s linear;
     font-size: $font-size-fifteen;
     @include mq($from: xs) {
         font-size: $font-size-fifteen;
