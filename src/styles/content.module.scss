@@ -45,9 +45,10 @@
 }
 
 .contentBanner {
-    background-image: url("../assets/images/banner.png");
-    background-size: cover;
-    height: auto;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,105,1) 35%, rgba(0,212,255,1) 100%);
+    height: auto !important;
+    width: auto !important;
     color: $second-font-color
 }
 

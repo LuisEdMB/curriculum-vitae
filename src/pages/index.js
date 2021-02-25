@@ -179,7 +179,8 @@ export default function Main() {
                                             icon={ <FacebookOutlined /> } 
                                             shape="circle"
                                             href="https://www.facebook.com/luis.eduardo.mmbb/"
-                                            target="_blank"/>
+                                            target="_blank"
+                                            rel="noreferrer"/>
                                     </Tooltip>
                                     <Tooltip title="LinkedIn">
                                         <Button 
@@ -187,7 +188,8 @@ export default function Main() {
                                             icon={ <LinkedinOutlined /> } 
                                             shape="circle"
                                             href="https://www.linkedin.com/in/luis-eduardo-mamani-bedregal/"
-                                            target="_blank"/>
+                                            target="_blank"
+                                            rel="noreferrer"/>
                                     </Tooltip>
                                     <Tooltip title="Whatsapp">
                                         <Button 
@@ -195,7 +197,8 @@ export default function Main() {
                                             icon={ <WhatsAppOutlined /> } 
                                             shape="circle"
                                             href="https://wa.me/51952020236"
-                                            target="_blank"/>
+                                            target="_blank"
+                                            rel="noreferrer"/>
                                     </Tooltip>
                             </Card>
                         </Col>

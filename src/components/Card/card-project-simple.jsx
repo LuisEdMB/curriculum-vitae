@@ -24,14 +24,16 @@ export default function CardProjectSimple(data){
                             shape="circle" 
                             icon={<GithubOutlined />} 
                             href={ data.link_github } 
-                            target="_blank" />
+                            target="_blank"
+                            rel="noreferrer" />
                     </Tooltip>,
                     <Tooltip title="URL">
                         <Button 
                             shape="circle" 
                             icon={<GlobalOutlined />} 
                             href={ data.link } 
-                            target="_blank" />
+                            target="_blank"
+                            rel="noreferrer" />
                     </Tooltip>
                 ]
             }>

@@ -5,7 +5,7 @@ import AntDesignSvg from '../assets/images/projects/technologies-logos/ant-desig
 import stylesLogo from '../styles/icon.module.scss'
 
 export const projectsImages = {
-    "curriculum_vitae": require("../assets/images/projects/curriculum-vitae.jpg")
+    "curriculum_vitae": require("../assets/images/projects/curriculum-vitae.png")
 }
 
 export const projectsLogosTechnologies = {

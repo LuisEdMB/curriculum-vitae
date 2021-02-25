@@ -32,7 +32,7 @@ export default function CardListStudiesSimple({ title, list }){
                                             className={ stylesFont.fontCardH5 }>
                                                 {
                                                     utils.isUrl(item.url)
-                                                        ? <Link href={ item.url } target="_blank">
+                                                        ? <Link href={ item.url } target="_blank" rel="noreferrer">
                                                             { item.details }
                                                             </Link>
                                                         : `${item.details} ${item.url}`
