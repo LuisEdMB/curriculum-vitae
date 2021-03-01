@@ -600,91 +600,111 @@
         },
         {
             "id": 16,
-            "text": "JQuery",
+            "text": "CSS (SASS)",
             "score": 4
         },
         {
             "id": 17,
-            "text": "Knockout JS",
+            "text": "Bootstrap",
             "score": 4
         },
         {
             "id": 18,
-            "text": "Node.js",
+            "text": "Material UI",
             "score": 4
         },
         {
             "id": 19,
-            "text": "Web Services",
+            "text": "Ant Design",
             "score": 4
         },
         {
             "id": 20,
-            "text": "Web API",
+            "text": "JQuery",
             "score": 4
         },
         {
             "id": 21,
-            "text": "EntityFramework",
+            "text": "Knockout JS",
             "score": 4
         },
         {
             "id": 22,
-            "text": "EntityFramework Core",
+            "text": "Node.js",
             "score": 4
         },
         {
             "id": 23,
-            "text": "Web Sockets (SignalR, Socket IO)",
+            "text": "Web Services",
             "score": 4
         },
         {
             "id": 24,
-            "text": "Docker",
-            "score": 3
+            "text": "Web API",
+            "score": 4
         },
         {
             "id": 25,
-            "text": "GIT",
+            "text": "EntityFramework",
             "score": 4
         },
         {
             "id": 26,
-            "text": "TFS",
+            "text": "EntityFramework Core",
             "score": 4
         },
         {
             "id": 27,
-            "text": "Patrón de Diseño (DDD - TDD)",
+            "text": "Web Sockets (SignalR, Socket IO)",
             "score": 4
         },
         {
             "id": 28,
-            "text": "Microservicios",
-            "score": 4
+            "text": "Docker",
+            "score": 3
         },
         {
             "id": 29,
-            "text": "MS SQL Server",
+            "text": "GIT",
             "score": 4
         },
         {
             "id": 30,
-            "text": "MySQL Server",
+            "text": "TFS",
             "score": 4
         },
         {
             "id": 31,
+            "text": "Patrón de Diseño (DDD - TDD)",
+            "score": 4
+        },
+        {
+            "id": 32,
+            "text": "Microservicios",
+            "score": 4
+        },
+        {
+            "id": 33,
+            "text": "MS SQL Server",
+            "score": 4
+        },
+        {
+            "id": 34,
+            "text": "MySQL Server",
+            "score": 4
+        },
+        {
+            "id": 35,
             "text": "MongoDB",
             "score": 2
         },
         {
-            "id": 32,
+            "id": 36,
             "text": "SCRUM",
             "score": 3
         },
         {
-            "id": 33,
+            "id": 37,
             "text": "RUP",
             "score": 2
         }
