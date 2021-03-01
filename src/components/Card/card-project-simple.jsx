@@ -4,7 +4,6 @@ import { Button, Card, Image, Tooltip } from 'antd'
 import Title from 'antd/lib/typography/Title'
 import * as Const from "../../constants"
 import Meta from 'antd/lib/card/Meta'
-import { GithubOutlined, GlobalOutlined } from '@ant-design/icons'
 import IconSvg from '../Icon/icon-svg'
 
 export default function CardProjectSimple(data){
@@ -14,28 +13,20 @@ export default function CardProjectSimple(data){
             className={ stylesCard.cardInfoInformation }
             cover={
                 <Image
-                    src={ Const.projectsImages[data.image] }/>
+                    src={ Const.projectsImages[data.image] } />
             }
             actions={
-                [
+                data.links.map(item => 
                     <Tooltip 
-                        title="Github">
+                        key={ item.id }
+                        title={ item.tooltip }>
                         <Button 
                             shape="circle" 
-                            icon={<GithubOutlined />} 
-                            href={ data.link_github } 
+                            icon={ Const.projectsLogosLinks[item.type] } 
+                            href={ item.link } 
                             target="_blank"
                             rel="noreferrer" />
-                    </Tooltip>,
-                    <Tooltip title="URL">
-                        <Button 
-                            shape="circle" 
-                            icon={<GlobalOutlined />} 
-                            href={ data.link } 
-                            target="_blank"
-                            rel="noreferrer" />
-                    </Tooltip>
-                ]
+                    </Tooltip>)
             }>
                 <Meta
                     title={

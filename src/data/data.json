@@ -695,8 +695,20 @@
             "title": "Curriculum Vitae Personal",
             "image": "curriculum_vitae",
             "description": "Landing Page que contiene mi Curriculum Vitae personal.",
-            "link": "https://luisedmb.github.io/curriculum-vitae",
-            "link_github": "https://github.com/LuisEdMB/curriculum-vitae",
+            "links": [
+                {
+                    "id": 1,
+                    "link": "https://github.com/LuisEdMB/curriculum-vitae",
+                    "tooltip": "Github",
+                    "type": "github"
+                },
+                {
+                    "id": 2,
+                    "link": "https://luisedmb.github.io/curriculum-vitae",
+                    "tooltip": "URL",
+                    "type": "url"
+                }
+            ],
             "technologies": [
                 {
                     "id": 1,
@@ -717,6 +729,57 @@
                     "id": 4,
                     "tooltip": "Ant Design",
                     "logo": "ant-design"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "CRUD Básico",
+            "image": "developing",
+            "description": "CRUD Angular + Node.js + Graphql para guiar a otros desarrolladores a construir aplicaciones con estas tecnologías. (en proceso de desarrollo ...)",
+            "links": [
+                {
+                    "id": 1,
+                    "link": "https://github.com/LuisEdMB/basic-crud-angular-node-js",
+                    "tooltip": "Github",
+                    "type": "github"
+                }
+            ],
+            "technologies": [
+                {
+                    "id": 1,
+                    "tooltip": "Angular",
+                    "logo": "angular"
+                },
+                {
+                    "id": 2,
+                    "tooltip": "MaterialUI",
+                    "logo": "material-ui"
+                },
+                {
+                    "id": 3,
+                    "tooltip": "SASS",
+                    "logo": "sass"
+                },
+                {
+                    "id": 4,
+                    "tooltip": "GraphQL",
+                    "logo": "graphql"
+                },
+                {
+                    "id": 5,
+                    "tooltip": "Node.js",
+                    "logo": "node-js"
+                },
+                {
+                    "id": 6,
+                    "tooltip": "Express",
+                    "logo": "express"
+                },
+                {
+                    "id": 7,
+                    "tooltip": "MongoDB",
+                    "logo": "mongo-db"
                 }
             ]
         }
