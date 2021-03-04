@@ -34,7 +34,8 @@ export default function Navbar() {
                                 className={ styles.logoNavbar }
                                 preview={ false }
                                 width={ 60 }
-                                height={ 60 }/>
+                                height={ 60 }
+                                alt="logo" />
                         </Col>
                         <Col span={ 19 }>
                             <NavbarMenu 
@@ -47,7 +48,8 @@ export default function Navbar() {
                             <MenuOutlined 
                                 onClick={ _ => handleNavbarOpen(!navbarOpen) }
                                 className={ styles.menuButtonNavbarLateral }
-                                style={{ marginTop: "12px" }} />
+                                style={{ marginTop: "12px" }}
+                                alt="menu-icon" />
                         </Col>
                     </Row>
             </Header>

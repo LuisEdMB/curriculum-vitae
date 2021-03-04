@@ -18,7 +18,7 @@ export default function CardListStudiesSimple({ title, list }){
                     renderItem={item => (
                         <List.Item key={ item.id }>
                             <List.Item.Meta
-                                avatar={ <AimOutlined /> }
+                                avatar={ <AimOutlined alt="avatar" /> }
                                 title={ <Title 
                                     level={ 3 }
                                     className={ stylesFont.fontCardH3 }>{ item.title } ({ item.fromYear } - { item.toYear })</Title> }

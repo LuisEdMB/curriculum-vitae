@@ -57,7 +57,9 @@ export default function CardTableJobsSimple({ title, data }){
                                                     <Title
                                                         key={ activity.id }
                                                         level={ 5 }
-                                                        className={ stylesFont.fontCardH5 }><AimOutlined /> { activity.description }</Title>)
+                                                        className={ stylesFont.fontCardH5 }>
+                                                            <AimOutlined alt="activity-description"/> { activity.description }
+                                                    </Title>)
                                             }
                                         </Descriptions.Item>
                                         <Descriptions.Item label={ 

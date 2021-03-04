@@ -7,7 +7,8 @@ export default function IconSvg(data){
         <Tooltip 
             title={ data.tooltip }>
                 <Icon
-                    component={ Const.projectsLogosTechnologies[data.logo] } />
+                    component={ Const.projectsLogosTechnologies[data.logo] }
+                    alt="icon-svg" />
         </Tooltip>
     )
 }

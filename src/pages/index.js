@@ -54,7 +54,8 @@ export default function Main() {
                             <Image
                                 src={ require("../assets/images/profile.jpg") }
                                 className={ stylesImage.contentInfoImageInformation }
-                                preview={ false } />
+                                preview={ false }
+                                alt={ "information-section" } />
                         </Col>
                         <Col xs={ 24 } lg={ 14 } md={ 13 }>
                             <Card

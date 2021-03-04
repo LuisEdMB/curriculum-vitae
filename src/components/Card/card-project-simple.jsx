@@ -13,7 +13,8 @@ export default function CardProjectSimple(data){
             className={ stylesCard.cardInfoInformation }
             cover={
                 <Image
-                    src={ Const.projectsImages[data.image] } />
+                    src={ Const.projectsImages[data.image] }
+                    alt={ data.title } />
             }
             actions={
                 data.links.map(item => 

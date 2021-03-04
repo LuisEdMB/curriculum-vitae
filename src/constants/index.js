@@ -17,19 +17,19 @@ export const projectsImages = {
 }
 
 export const projectsLogosTechnologies = {
-    "react": () => <img className={ stylesLogo.icon } src={ ReactSvg } />,
-    "nextjs": () => <img className={ stylesLogo.icon } src={ NextJsSvg } />,
-    "sass": () => <img className={ stylesLogo.icon } src={ SassSvg } />,
-    "ant-design": () => <img className={ stylesLogo.icon } src={ AntDesignSvg } />,
-    "angular": () => <img className={ stylesLogo.icon } src={ Angular } />,
-    "material-ui": () => <img className={ stylesLogo.icon } src={ MaterialUi } />,
-    "graphql": () => <img className={ stylesLogo.icon } src={ GraphQl } />,
-    "node-js": () => <img className={ stylesLogo.icon } src={ NodeJs } />,
-    "express": () => <img className={ stylesLogo.icon } src={ Express } />,
-    "mongo-db": () => <img className={ stylesLogo.icon } src={ MongoDb } />,
+    "react": () => <img className={ stylesLogo.icon } src={ ReactSvg } alt="react-icon" />,
+    "nextjs": () => <img className={ stylesLogo.icon } src={ NextJsSvg } alt="next-js-icon" />,
+    "sass": () => <img className={ stylesLogo.icon } src={ SassSvg } alt="sass-icon" />,
+    "ant-design": () => <img className={ stylesLogo.icon } src={ AntDesignSvg } alt="ant-design-icon" />,
+    "angular": () => <img className={ stylesLogo.icon } src={ Angular } alt="angular-icon" />,
+    "material-ui": () => <img className={ stylesLogo.icon } src={ MaterialUi } alt="material-ui-icon" />,
+    "graphql": () => <img className={ stylesLogo.icon } src={ GraphQl } alt="graphql-icon" />,
+    "node-js": () => <img className={ stylesLogo.icon } src={ NodeJs } alt="node-js-icon" />,
+    "express": () => <img className={ stylesLogo.icon } src={ Express } alt="express-icon" />,
+    "mongo-db": () => <img className={ stylesLogo.icon } src={ MongoDb } alt="mongo-db-icon" />,
 }
 
 export const projectsLogosLinks = {
-    "github": <GithubOutlined />,
-    "url": <GlobalOutlined />
+    "github": <GithubOutlined alt="github-icon" />,
+    "url": <GlobalOutlined alt="url-icon" />
 }
