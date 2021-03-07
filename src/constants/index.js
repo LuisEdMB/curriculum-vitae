@@ -13,7 +13,8 @@ import { GithubOutlined, GlobalOutlined } from '@ant-design/icons'
 
 export const projectsImages = {
     "curriculum_vitae": require("../assets/images/projects/curriculum-vitae.png"),
-    "developing": require("../assets/images/projects/developing.svg")
+    "developing": require("../assets/images/projects/developing.svg"),
+    "basic-crud-angular-node-js": require("../assets/images/projects/basic-crud-angular-node-js.png")
 }
 
 export const projectsLogosTechnologies = {

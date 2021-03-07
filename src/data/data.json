@@ -755,8 +755,8 @@
         {
             "id": 1,
             "title": "CRUD Básico",
-            "image": "developing",
-            "description": "CRUD Angular + Node.js + Graphql para guiar a otros desarrolladores a construir aplicaciones con estas tecnologías. (en proceso de desarrollo ...)",
+            "image": "basic-crud-angular-node-js",
+            "description": "CRUD Angular + Node.js + Graphql para guiar a otros desarrolladores a construir aplicaciones con estas tecnologías.",
             "links": [
                 {
                     "id": 1,
