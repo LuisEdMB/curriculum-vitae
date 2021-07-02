@@ -30,13 +30,11 @@ export default function CardProjectSimple(data){
                     </Tooltip>)
             }>
                 <Meta
-                    title={
-                        <Title 
-                            level={ 3 }
-                            className={ stylesFont.fontCardH3 }>{ data.title }</Title>
-                    }
                     description={
                         <>
+                            <Title 
+                                level={ 3 }
+                                className={ stylesFont.fontCardH3 }>{ data.title }</Title>
                             <Title
                                 level={ 5 }
                                 className={ stylesFont.fontCardH5 }>{ data.description }</Title>

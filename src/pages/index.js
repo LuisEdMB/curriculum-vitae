@@ -2,7 +2,6 @@ import { Button, Card, Col, Image, Row, Tag, Tooltip } from "antd";
 import Layout from "antd/lib/layout/layout";
 import Title from "antd/lib/typography/Title";
 import Navbar from "../components/Navbar/navbar";
-import Particle from "../components/Particle/particle";
 import Section from '../components/Section/section'
 import stylesFont from '../styles/font.module.scss'
 import stylesImage from '../styles/image.module.scss'
@@ -28,9 +27,6 @@ export default function Main() {
             <Section 
                 id="inicio"
                 style={ "contentBanner" } >
-                <Particle  
-                    type={ "particles" }
-                    color={ "#272839" } />
                 <Section style={ "contentInfoBanner" }>
                     <Row type="flex" style={{ marginTop: "200px" }}>
                         <Col span={ 24 } style={{ textAlign: "center" }}>
