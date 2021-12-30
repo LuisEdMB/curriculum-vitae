@@ -14,6 +14,8 @@ import * as utils from "../utils";
 import CardListRateSimple from "../components/Card/card-list-rate-simple";
 import CardProjectSimple from "../components/Card/card-project-simple";
 import { FacebookOutlined, LinkedinOutlined, WhatsAppOutlined } from "@ant-design/icons";
+import TypewriterComponent from "typewriter-effect";
+import { Bounce, Fade, JackInTheBox, Zoom } from "react-awesome-reveal";
 
 export default function Main() {
     let studies = data.studies
@@ -31,11 +33,14 @@ export default function Main() {
                     <Row type="flex" style={{ marginTop: "200px" }}>
                         <Col span={ 24 } style={{ textAlign: "center" }}>
                             <Title className={ stylesFont.fontTitleBanner }>
-                                Luis Eduardo <br/>
-                                Mamani Bedregal
+                                <TypewriterComponent
+                                    onInit={writer => writer.pauseFor(10).typeString('Luis Eduardo').start()}/>
+                                <TypewriterComponent
+                                    onInit={writer => writer.pauseFor(1800).typeString('Mamani Bedregal').start()}/>
                             </Title>
                             <Title className={ stylesFont.fontSubTitleBanner }>
-                                Ingeniero de Sistemas
+                                <TypewriterComponent
+                                    onInit={writer => writer.pauseFor(4000).typeString('Ingeniero de Sistemas').start()}/>
                             </Title>
                         </Col>
                     </Row>
@@ -47,24 +52,28 @@ export default function Main() {
                 <Section style={ "contentInfoInformation" }>
                     <Row type="flex" align="middle" gutter={[40, 16]}>
                         <Col xs={ 24 } lg={ 10 } md={ 11 }>
-                            <Image
-                                src={ require("../assets/images/profile.jpg") }
-                                className={ stylesImage.contentInfoImageInformation }
-                                preview={ false }
-                                alt={ "information-section" } />
+                            <Bounce triggerOnce>
+                                <Image
+                                    src={ require("../assets/images/profile.jpg") }
+                                    className={ stylesImage.contentInfoImageInformation }
+                                    preview={ false }
+                                    alt={ "information-section" } />
+                            </Bounce>
                         </Col>
                         <Col xs={ 24 } lg={ 14 } md={ 13 }>
-                            <Card
-                                className={ stylesCard.cardInfoInformation }>
-                                <Title className={ stylesFont.fontInfoInformation }>
-                                    Profesional en Ingeniería de Sistemas, { new Date().getFullYear() - 1996 } años de edad,
-                                    autodidacta, formado con valores, apasionado por los cambios y avances tecnológicos, el 
-                                    trabajo en equipo, cuidado del medio ambiente, y la música.
-                                </Title>
-                                <div>
-                                    <Tag color="#272839">País: Perú</Tag>
-                                </div>
-                            </Card>
+                            <Fade triggerOnce direction="right">
+                                <Card
+                                    className={ stylesCard.cardInfoInformation }>
+                                    <Title className={ stylesFont.fontInfoInformation }>
+                                        Profesional en Ingeniería de Sistemas, { new Date().getFullYear() - 1996 } años de edad,
+                                        autodidacta, formado con valores, apasionado por los cambios y avances tecnológicos, el 
+                                        trabajo en equipo, cuidado del medio ambiente, y la música.
+                                    </Title>
+                                    <div>
+                                        <Tag color="#272839">País: Perú</Tag>
+                                    </div>
+                                </Card>
+                            </Fade>
                         </Col>
                     </Row>
                 </Section>
@@ -74,15 +83,19 @@ export default function Main() {
                 style={ "contentStudies" }>
                 <Section style={ "contentInfoStudies" }>
                     <Row type="flex" align="middle" gutter={[40, 40]}>
-                        <Col xs={ 24 } lg={ 12 } md={ 24 } >
-                            <CardListStudiesSimple 
-                                title="Estudios"
-                                list={ studies.academics }/>
+                        <Col xs={ 24 }>
+                            <Zoom triggerOnce>
+                                <CardListStudiesSimple 
+                                    title="Estudios"
+                                    list={ studies.academics }/>
+                            </Zoom>
                         </Col>
-                        <Col xs={ 24 } lg={ 12 } md={ 24 }>
-                            <CardListStudiesSimple 
-                                title="Cursos"
-                                list={ studies.courses }/>
+                        <Col xs={ 24 }>
+                            <Zoom triggerOnce>
+                                <CardListStudiesSimple 
+                                    title="Cursos"
+                                    list={ studies.courses }/>
+                            </Zoom>
                         </Col>
                     </Row>
                 </Section>
@@ -91,7 +104,7 @@ export default function Main() {
                 id="experiencia-laboral"
                 style={ "contentJobs" }>
                 <Section style={ "contentInfoJobs" }>
-                    <CardTableJobsSimple 
+                    <CardTableJobsSimple
                         title={ "Experiencia Laboral" }
                         data={ jobs }/>
                 </Section>
@@ -102,16 +115,22 @@ export default function Main() {
                 <Section style={ "contentInfoSkills" }>
                     <Row type="flex" align="middle" gutter={[40, 40]}>
                         <Col xs={ 24 } lg={ 8 } md={ 24 } >
-                            <CardListRateSimple 
-                                data={ skills.filter(skill => skill.position === 1) }/>
+                            <Zoom triggerOnce>
+                                <CardListRateSimple 
+                                    data={ skills.filter(skill => skill.position === 1) }/>
+                            </Zoom>
                         </Col>
                         <Col xs={ 24 } lg={ 8 } md={ 24 } >
-                            <CardListRateSimple 
-                                data={ skills.filter(skill => skill.position === 2) }/>
+                            <Zoom triggerOnce>
+                                <CardListRateSimple 
+                                    data={ skills.filter(skill => skill.position === 2) }/>
+                            </Zoom>
                         </Col>
                         <Col xs={ 24 } lg={ 8 } md={ 24 } >
-                            <CardListRateSimple 
-                                data={ skills.filter(skill => skill.position === 3) }/>
+                            <Zoom triggerOnce>
+                                <CardListRateSimple 
+                                    data={ skills.filter(skill => skill.position === 3) }/>
+                            </Zoom>
                         </Col>
                     </Row>
                 </Section>
@@ -124,25 +143,31 @@ export default function Main() {
                         <Col xs={ 24 } lg={ 8 } md={ 24 } >
                             {
                                 projects.filter(project => project.position === 1).map(project => 
-                                    <CardProjectSimple 
-                                        key={ project.id }
-                                        { ...project } />)
+                                    <JackInTheBox triggerOnce>
+                                        <CardProjectSimple 
+                                            key={ project.id }
+                                            { ...project } />
+                                    </JackInTheBox>)
                             }
                         </Col>
                         <Col xs={ 24 } lg={ 8 } md={ 24 } >
                             {
                                 projects.filter(project => project.position === 2).map(project => 
-                                    <CardProjectSimple 
-                                        key={ project.id }
-                                        { ...project } />)
+                                    <JackInTheBox triggerOnce>
+                                        <CardProjectSimple 
+                                            key={ project.id }
+                                            { ...project } />
+                                    </JackInTheBox>)
                             }
                         </Col>
                         <Col xs={ 24 } lg={ 8 } md={ 24 } >
                             {
                                 projects.filter(project => project.position === 3).map(project => 
-                                    <CardProjectSimple 
-                                        key={ project.id }
-                                        { ...project } />)
+                                    <JackInTheBox triggerOnce>
+                                        <CardProjectSimple 
+                                            key={ project.id }
+                                            { ...project } />
+                                    </JackInTheBox>)
                             }
                         </Col>
                     </Row>

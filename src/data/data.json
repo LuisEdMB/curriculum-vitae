@@ -38,6 +38,15 @@
                 "toYear": 2021,
                 "details": "Ver certificado",
                 "url": "https://www.udemy.com/certificate/UC-81a11b56-6561-4c42-99b5-11db4264787e/"
+            },
+            {
+                "id": 4,
+                "title": "NestJS Zero to Hero - Modern TypeScript Back-end Development",
+                "university": "Udemy",
+                "fromYear": 2021,
+                "toYear": 2021,
+                "details": "Ver certificado",
+                "url": "https://www.udemy.com/certificate/UC-ff99868d-3414-45eb-86b3-83e6c8cd8892/"
             }
         ]
     },
@@ -529,6 +538,158 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": 4,
+            "position": "Desarrollador Frontend",
+            "enterprise": "MDP Consulting S.A.C.",
+            "location": "Lima - Perú",
+            "from": "03/2021",
+            "to": "Actualidad",
+            "activities": [
+                {
+                    "id": 1,
+                    "description": "Desarrollador Frontend en Caja Cencosud."
+                },
+                {
+                    "id": 2,
+                    "description": "Desarrollo del sistema web: ODC - Originación Digital de Clientes."
+                },
+                {
+                    "id": 3,
+                    "description": "Apoyo en el desarrollo de backend y creación de scripts SQL para nuevos requerimientos en ODC."
+                },
+                {
+                    "id": 4,
+                    "description": "Atención de incidencias."
+                }
+            ],
+            "technologies": [
+                {
+                    "id": 1,
+                    "type": "Frontend",
+                    "technology": [
+                        {
+                            "id": 1,
+                            "text": "Javascript"
+                        },
+                        {
+                            "id": 2,
+                            "text": "HTML"
+                        },
+                        {
+                            "id": 3,
+                            "text": "CSS"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "type": "Backend",
+                    "technology": [
+                        {
+                            "id": 1,
+                            "text": "C#"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "type": "Base de Datos",
+                    "technology": [
+                        {
+                            "id": 1,
+                            "text": "SQL Server"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "type": "Librerías y/o Frameworks",
+                    "technology": [
+                        {
+                            "id": 1,
+                            "text": "React"
+                        },
+                        {
+                            "id": 2,
+                            "text": "Redux"
+                        },
+                        {
+                            "id": 3,
+                            "text": "Redux-thunk"
+                        },
+                        {
+                            "id": 4,
+                            "text": ".NET Framework"
+                        },
+                        {
+                            "id": 5,
+                            "text": ".NET Core"
+                        },
+                        {
+                            "id": 6,
+                            "text": "Material UI"
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "type": "Herramientas",
+                    "technology": [
+                        {
+                            "id": 1,
+                            "text": "Visual Studio"
+                        },
+                        {
+                            "id": 2,
+                            "text": "Visual Code"
+                        },
+                        {
+                            "id": 3,
+                            "text": "JetBrains Rider"
+                        },
+                        {
+                            "id": 4,
+                            "text": "SQL Server Management Studio"
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "type": "Metodologías",
+                    "technology": [
+                        {
+                            "id": 1,
+                            "text": "SCRUM"
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "type": "Control de Versiones",
+                    "technology": [
+                        {
+                            "id": 1,
+                            "text": "GIT"
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "type": "Sistema Operativo",
+                    "technology": [
+                        {
+                            "id": 1,
+                            "text": "Windows"
+                        },
+                        {
+                            "id": 2,
+                            "text": "Linux"
+                        }
+                    ]
+                }
+            ]
         }
     ],
     "skills": [
@@ -540,7 +701,7 @@
         {
             "id": 2,
             "text": "Java",
-            "score": 4
+            "score": 3
         },
         {
             "id": 3,
@@ -555,7 +716,7 @@
         {
             "id": 5,
             "text": "PHP",
-            "score": 4
+            "score": 3
         },
         {
             "id": 6,
@@ -564,127 +725,127 @@
         },
         {
             "id": 7,
-            "text": "C++",
-            "score": 4
-        },
-        {
-            "id": 8,
             "text": "Python",
             "score": 3
         },
         {
-            "id": 9,
+            "id": 8,
             "text": "Javascript",
             "score": 4
         },
         {
-            "id": 10,
+            "id": 9,
             "text": "Typescript",
             "score": 4
         },
         {
-            "id": 11,
+            "id": 10,
             "text": "Angular",
-            "score": 4
+            "score": 3
         },
         {
-            "id": 12,
+            "id": 11,
             "text": "React",
             "score": 4
         },
         {
-            "id": 13,
+            "id": 12,
             "text": "React Native",
             "score": 4
         },
         {
-            "id": 14,
+            "id": 13,
             "text": "Xamarin",
-            "score": 4
+            "score": 3
         },
         {
-            "id": 15,
+            "id": 14,
             "text": "Redux",
             "score": 4
         },
         {
-            "id": 16,
-            "text": "CSS (SASS)",
-            "score": 4
-        },
-        {
-            "id": 17,
-            "text": "Bootstrap",
-            "score": 4
-        },
-        {
-            "id": 18,
-            "text": "Material UI",
-            "score": 4
-        },
-        {
-            "id": 19,
-            "text": "Ant Design",
-            "score": 4
-        },
-        {
-            "id": 20,
+            "id": 15,
             "text": "JQuery",
             "score": 4
         },
         {
-            "id": 21,
+            "id": 16,
             "text": "Knockout JS",
             "score": 4
         },
         {
-            "id": 22,
+            "id": 17,
             "text": "Node.js",
             "score": 4
         },
         {
-            "id": 23,
+            "id": 18,
+            "text": "Express JS",
+            "score": 4
+        },
+        {
+            "id": 19,
+            "text": "NestJS",
+            "score": 4
+        },
+        {
+            "id": 20,
             "text": "Web Services",
             "score": 4
         },
         {
-            "id": 24,
+            "id": 21,
             "text": "Web API",
             "score": 4
         },
         {
-            "id": 25,
+            "id": 22,
             "text": "EntityFramework",
             "score": 4
         },
         {
-            "id": 26,
+            "id": 23,
             "text": "EntityFramework Core",
             "score": 4
         },
         {
-            "id": 27,
+            "id": 24,
             "text": "Web Sockets (SignalR, Socket IO)",
             "score": 4
         },
         {
-            "id": 28,
+            "id": 25,
             "text": "Docker",
-            "score": 3
+            "score": 4
         },
         {
-            "id": 29,
+            "id": 26,
             "text": "GIT",
             "score": 4
         },
         {
-            "id": 30,
+            "id": 27,
             "text": "TFS",
+            "score": 3
+        },
+        {
+            "id": 28,
+            "text": "Github",
+            "score": 3
+        },
+        {
+            "id": 29,
+            "text": "Gitlab",
+            "score": 3
+        },
+        {
+            "id": 30,
+            "text": "Patrón de Diseño (DDD - TDD)",
             "score": 4
         },
         {
             "id": 31,
-            "text": "Patrón de Diseño (DDD - TDD)",
+            "text": "Clean Architecture",
             "score": 4
         },
         {
@@ -705,17 +866,22 @@
         {
             "id": 35,
             "text": "MongoDB",
-            "score": 2
+            "score": 3
         },
         {
             "id": 36,
-            "text": "SCRUM",
+            "text": "PostgreSQL",
             "score": 3
         },
         {
             "id": 37,
+            "text": "SCRUM",
+            "score": 3
+        },
+        {
+            "id": 38,
             "text": "RUP",
-            "score": 2
+            "score": 3
         }
     ],
     "projects": [
