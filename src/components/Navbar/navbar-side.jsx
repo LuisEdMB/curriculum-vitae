@@ -13,7 +13,7 @@ function NavbarSide({ open, openNavbar }) {
             visible={ open }
             placement="right"
             closable={ false }
-            width={ 200 }
+            width={ 240 }
             onClose={ _ => handleOpenNavbar() }>
                 <NavbarMenu 
                     mode="vertical"
