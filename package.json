@@ -18,8 +18,10 @@
     "react": "17.0.1",
     "react-awesome-reveal": "^3.8.1",
     "react-dom": "17.0.1",
+    "react-tsparticles": "^2.2.3",
     "sass": "^1.45.2",
     "sass-mq": "^5.0.1",
+    "tsparticles": "^2.2.3",
     "typewriter-effect": "^2.18.2",
     "webpack": "^5.20.2"
   }
